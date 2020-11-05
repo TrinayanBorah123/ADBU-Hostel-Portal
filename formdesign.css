@@ -1,0 +1,88 @@
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: grey;
+}
+input[type=text]{
+	 padding-left: 10px;
+   height: 50px;
+   width: 400px;
+   box-sizing: border-box;
+   border: 2px solid #ccc;
+   border-radius: 4px;
+}
+input[type="date"]{
+	margin-left: 10px;
+	padding-left: 10px;
+   height: 50px;
+   width: 400px;
+   box-sizing: border-box;
+   border: 2px solid #000000;
+   border-radius: 4px;
+}
+input[type=text],select{
+	margin-left: 10px;
+	padding-left: 10px;
+   height: 50px;
+   width: 400px;
+   box-sizing: border-box;
+   border: 2px solid #000000;
+   border-radius: 4px;
+}
+
+input[type=text],select,option{
+	color: grey;
+}
+input[type=number]{
+	margin-left: 10px;
+	padding-left: 10px;
+   height: 50px;
+   width: 400px;
+   box-sizing: border-box;
+   border: 2px solid #000000;
+   border-radius: 4px;
+}
+
+input[type="password"]{
+	margin-left: 10px;
+	padding-left: 10px;
+   height: 50px;
+   width: 400px;
+   box-sizing: border-box;
+   border: 2px solid #000000;
+   border-radius: 4px;
+}
+input[type=number]{
+	color: grey;
+}
+input[type=submit]{
+	font-family: Consolas;
+	font-size: 20px;
+	color: white;
+	margin-top: 40px;
+	height: 50px;
+	width:400px;
+	border: none;
+	background-image: linear-gradient(  #6c757d,#6c757d); 
+	
+	/*background-image: linear-gradient(  #3db166,#ffffff); 
+}
+input[type=submit]:hover{
+	 cursor: pointer;
+	background-image: linear-gradient(  #6c757d,#676767); 
+}
+input[type=text]:hover{
+	border: 2px solid #000000;
+}
+input[type=number]:hover{
+	border: 2px solid #000000;
+}
+
+input[type=text],select,option:hover{
+	border: 2px solid #000000;
+}/* CSS Document */
+
