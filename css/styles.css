@@ -1,0 +1,286 @@
+#logo
+{
+  width: 50px;
+  height: auto;
+}
+.carouselExampleIndicators
+{
+  width: 80%;
+  height: 60%;
+}
+.blink {
+    width: fit-content;
+    background-color: #3db166;
+    padding: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 10px;
+    position: relative;
+	
+  }
+#nav a{
+  -webkit-transition: all 0.5s ease;
+}
+  .blink span {
+    font-size: 17px;
+    color: #fff;
+    animation: blink 1s linear infinite;
+    text-transform: capitalize;
+  }
+  .blink::after {
+    position: absolute;
+    width: 1100px;
+    height: 2px;
+    background: #d8d7d7;
+    content: "";
+    left: 167px;
+    top: 20px;
+}
+
+.announcement
+{
+  padding-bottom: 50px;
+}
+
+.about-section
+{
+  margin-bottom: 80px;
+}
+.about
+{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.saint
+{
+  width: 400px;
+  height: 400px;
+}
+
+
+.saint-box
+{
+  background-color: #f18c8e;
+
+
+
+}
+.saint-desp
+{
+  margin: 50px 50px;
+}
+
+#features
+{
+  margin-bottom: 70px;
+}
+
+/********************About University************************/
+.about-dbu {
+    background: url('../images/d.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 125px 0 70px;
+}
+.about-dbu h1 {
+    font-size: 31px;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-transform: none;
+    color: #51be78;
+    box-sizing: border-box;
+    padding: 13px 0 0 30px;
+  }
+  .brief-short {
+    font-size: 18px;
+    text-transform: none;
+    color: #c1d3ff;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.logo-white img
+{
+    width: 80%;
+}
+
+/* ___________________________________About hostel-----------------*/
+
+.about-hos
+{
+  background-color: #6c5b7b;
+  /**height: 400px;**/
+  padding: 100px 0 70px;
+}
+.about-hos h1 {
+    font-size: 31px;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-transform: none;
+    color: #51be78;
+    box-sizing: border-box;
+    padding: 13px 0 0 30px;
+  }
+
+.hostel-logo
+{
+  padding-left: 89px;
+}
+
+
+
+#hostel-fac
+{
+  background-color:#40514e;
+  padding: 7% 10%;
+}
+
+.facility-box
+{
+  text-align: center;
+  padding: 5%;
+}
+.fac-desp
+{
+  color: white;
+}
+.icon
+{
+  color: #4f9da6;
+  margin-bottom: 1rem;
+}
+.icon:hover
+{
+  color:white;
+}
+
+/****About news and events***/
+
+#news-events
+{
+  background-color: white;
+  padding:7% 3%;
+}
+
+.updates {
+    font-size: 24px;
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: 0;
+    color: #163269;
+    float: left;
+    margin-right: 30px;
+    font-weight: 700;
+}
+
+.divider {
+    overflow: hidden;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-top: .6em;
+    font-size: 24px;
+    border-bottom-width: 3px;
+    border-color: #e6e6e6;
+}
+/****About location***/
+
+#location
+{
+  background-color: white;
+  padding:7% 3%;
+  padding-top: 0;
+}
+.mapouter
+{
+  padding: 3% 15%;
+}
+
+/****About Contact***/
+
+#contact
+{
+  background-color: #01252a;
+  padding: 3% 3%;
+}
+
+.contact-title
+{
+  font-size: 24px;
+  font-style: normal;
+  text-transform: none;
+  letter-spacing: 0;
+  color: white;
+  float: left;
+  margin-right: 30px;
+  font-weight: 700;
+}
+.contact-details
+{
+  color: white;
+  text-align: center;
+}
+.contact-box
+{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 15px;
+}
+
+.h-line
+{
+  background-color: #f16821;
+  height: 2%;
+}
+.contact-desp
+{
+  color: #eeeeee;
+  margin-bottom: 0;
+  font-size: small;
+}
+
+/*------------------------About footer----------------------*/
+
+#footer
+{
+  background-color: #1d1919;
+  padding: 2% 2%;
+}
+
+.f-left
+{
+  color:#eeeeee;
+}
+.f-right
+{
+  text-align: right;
+}
+.fb
+{
+  color: #8158fc;
+}
+.insta
+{
+  color: #f09c67;
+}
+.twitter
+{
+  color:#5ca0d3;
+}
+.you
+{
+  color:#ff5959;
+}
+
+.icons
+{
+  padding: 0 1%;
+}
+.icons:hover
+{
+  color:white;
+}

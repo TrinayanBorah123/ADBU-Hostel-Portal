@@ -1,0 +1,213 @@
+#logo
+{
+  width: 50px;
+  height: auto;
+}
+
+/*-------------------intro-----------------*/
+.about-hos {
+    background: url('../images/i.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 125px 0 70px;
+    padding-bottom: 0;
+
+    z-index: -1;
+}
+.about-hos h1 {
+    font-size: 31px;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-transform: none;
+    color: white;
+    box-sizing: border-box;
+    padding: 13px 0 0 30px;
+    margin-top: 150px;
+  }
+
+.intro-bread
+{
+  margin: 2px 2px;
+}
+
+
+#current_evt
+{
+  background-color:#e8e8e8;
+}
+
+.blink {
+    width: fit-content;
+    background-color: #3db166;
+    padding: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 10px;
+    position: relative;
+
+  }
+
+  .blink span {
+    font-size: 17px;
+    color: #fff;
+    animation: blink 1s linear infinite;
+    text-transform: capitalize;
+  }
+  .blink::after {
+    position: absolute;
+    width: 1100px;
+    height: 2px;
+    background: #d8d7d7;
+    content: "";
+    left: 167px;
+    top: 20px;
+}
+
+.current_events
+{
+  padding-bottom: 50px;
+}
+
+.intro
+{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/*Facility and services-------------------------------------*/
+
+#fac-serv1
+{
+  background-color:#40514e;
+  padding: 3% 3%;
+}
+#fac-serv
+{
+  background-color:#40514e;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 4%;
+  padding-right: 3%
+}
+
+.fac-title
+{
+  font-size: 24px;
+  font-style: normal;
+  text-transform: none;
+  letter-spacing: 0;
+  color: white;
+  float: left;
+  margin-right: 30px;
+  font-weight: 700;
+}
+
+.divider {
+    overflow: hidden;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-top: .6em;
+    font-size: 24px;
+    border-bottom-width: 3px;
+    border-color: #e6e6e6;
+}
+
+.fac-icon
+{
+  color:#15cda8;
+}
+
+.fac-box
+{
+  padding-bottom: 30px;
+}
+.fac-desp
+{
+  padding-top: 10px;
+  color: white;
+}
+
+/* events-------------------------------------------------------------- */
+#event-gallery
+{
+  background-color:#085f63;
+  padding: 3% 3%;
+}
+.slider
+{
+
+  width: 70%;
+  margin: 10px auto;
+}
+
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+}
+/*------------------footer-----------------------*/
+
+#footer
+{
+  background-color: #1d1919;
+  padding: 2% 2%;
+}
+
+.f-left
+{
+  color:#eeeeee;
+}
+.f-right
+{
+  text-align: right;
+}
+.fb
+{
+  color: #8158fc;
+}
+.insta
+{
+  color: #f09c67;
+}
+.twitter
+{
+  color:#5ca0d3;
+}
+.you
+{
+  color:#ff5959;
+}
+
+.icons
+{
+  padding: 0 1%;
+}
+.icons:hover
+{
+  color:white;
+}
